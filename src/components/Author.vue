@@ -28,7 +28,7 @@
        		<a href="/rss.xml"><g-image alt="rss" class src="~/assets/images/rss.png" width="30"/></a>
       		<a href="//github.com/stephenajulu"><g-image alt="github" class src="~/assets/images/github.png"/></a>
       		<a href="//linkedin.com/in/stephenajulu"><g-image alt="linkedin" class src="~/assets/images/linkedin.png" width="32"/></a>
-      		<a href="//noti.st/stephenajulu"><g-image alt="notist" class src="~/assets/images/notist.jpg" width="32"/></a>
+      		<!-- <a href="//noti.st/stephenajulu"><g-image alt="notist" class src="~/assets/images/notist.jpg" width="32"/></a> -->
 		
 		</p>
 
