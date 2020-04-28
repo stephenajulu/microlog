@@ -1,7 +1,7 @@
 <template>
   <div>
   <h1 class="title">Oops, Page Not Found</h1>
-    <g-link to="/" class="gohome">Go Back Home</g-link>
+    <a href="/" class="gohome"><h3>Go Back Home</h3></a>
     <div class="icon">
       <g-image src="../assets/images/404.svg"></g-image>
     </div>
