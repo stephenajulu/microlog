@@ -17,7 +17,8 @@
 
     <footer class="footer">
       <span class="footer__copyright">Copyright © {{ new Date().getFullYear() }}. </span>
-      <span class="footer__links">Powered by <a href="//www.suits.at"> SUITS </a></span>
+      <span> Made by <a href="https://stephenajulu.com">Stephen Ajulu </a></span>
+      <span class="footer__links"> Powered by <a href="//gridsome.org"> GridSome </a></span>
     </footer>
 
   </div>
