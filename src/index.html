@@ -1,6 +1,23 @@
 <!DOCTYPE html>
 <html ${htmlAttrs}>
   <head>
+  <!-- HTML Meta Tags -->
+    <title>Home - Ajulu's MicroBlog</title>
+    <meta name="description" content="Personal MicroBlog for Stephen Ajulu. A place to share thoughts, ideas, tips, tricks and short articles">
+    <!-- Google / Search Engine Tags -->
+    <meta itemprop="name" content="Ajulu's MicroBlog">
+    <meta itemprop="description" content="Personal MicroBlog for Stephen Ajulu. A place to share thoughts, ideas, tips, tricks and short articles">
+    <meta itemprop="image" content="">
+    <!-- Facebook Meta Tags -->
+    <meta property="og:url" content="https://microblog.stephenajulu.com">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Ajulu's MicroBlog">
+    <meta property="og:description" content="Personal MicroBlog for Stephen Ajulu. A place to share thoughts, ideas, tips, tricks and short articles">
+    <meta property="og:image" content="">
+    <!-- Twitter Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Ajulu's Microblog">
+    <meta name="twitter:description" content="Personal MicroBlog for Stephen Ajulu. A place to share thoughts, ideas, tips, tricks and short articles">
     ${head}
   </head>
   <body ${bodyAttrs}>
@@ -47,7 +64,7 @@
         });
       }
     </script>
-
+    <script src="//instant.page/3.0.0" type="module" defer integrity="sha384-OeDn4XE77tdHo8pGtE1apMPmAipjoxUQ++eeJa6EtJCfHlvijigWiJpD7VDPWXV1"></script>
     ${app}
     ${scripts}
   </body>
