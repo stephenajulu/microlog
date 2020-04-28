@@ -5,7 +5,8 @@
 // To restart press CTRL + C in terminal and run `gridsome develop`
 
 module.exports = {
-  siteName: 'Ajulu's MicroBlog',
+  siteName: 'Ajulu s MicroBlog',
+  siteUrl: 'https://microblog.stephenajulu.com',
   siteDescription: 'Personal MicroBlog for Stephen Ajulu. A place to share thoughts, ideas, tips, tricks and short articles',
 
   templates: {
