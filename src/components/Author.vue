@@ -23,7 +23,7 @@
 		<p class="author__links">
 		
 		<a href="//twitter.com/stephenajulu"><g-image alt="twitter" class src="~/assets/images/twitter.png"/></a>
-      		<a href="//dev.to/stephenajulu"><g-mage alt="dev" class src="~/assets/images/dev.jpg" width="30"/></a>
+      		<a href="//dev.to/stephenajulu"><g-image alt="dev" class src="~/assets/images/dev.jpg" width="30"/></a>
                 <a href="//instagram.com/stephenajulu"><g-image alt="instagram" class src="~/assets/images/instagram.png"/></a>
        		<a href="/rss.xml"><g-image alt="rss" class src="~/assets/images/rss.png" width="30"/></a>
       		<a href="//github.com/stephenajulu"><g-image alt="github" class src="~/assets/images/github.png"/></a>
