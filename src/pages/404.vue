@@ -16,7 +16,12 @@
   height: 100vh;
 }
 
-.title, .gohome {
+.title {
+align-items: center;
+text-align: center;
+}
+
+.gohome {
 align-items: center;
 text-align: center;
 }
