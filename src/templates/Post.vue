@@ -33,12 +33,14 @@
 import PostMeta from '~/components/PostMeta'
 import PostTags from '~/components/PostTags'
 import Author from '~/components/Author.vue'
+import Newsletter from "~/components/Newsletter.vue";
 
 export default {
   components: {
     Author,
     PostMeta,
-    PostTags
+    PostTags,
+    Newsletter
   },
   metaInfo () {
     return {
@@ -115,6 +117,12 @@ query Post ($id: ID!) {
       max-width: none;
     }
   }
+  
+  &__flex {
+    display: grid;
+    grid-template-columns: 22% 60%;
+    
+  }
 }
 
 .post-comments {
@@ -127,5 +135,28 @@ query Post ($id: ID!) {
 
 .post-author {
   margin-top: calc(var(--space) / 2);
+}
+
+.post-newsletter {
+  padding: 0;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 800px) {
+  .post {
+    &__flex {
+      display: flex;
+      flex-direction: column-reverse;
+    }
+  }
+  
+  .content-boxs {
+    margin: 0 !important;
+  }
+}
+
+@media only screen and (min-width: 1650px) {
+  .content-boxs {
+    margin-left: 6em;
+  }
 }
 </style>
