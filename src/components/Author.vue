@@ -7,7 +7,7 @@
       src="~/assets/images/author.jpg"
       width="180"
       height="180"
-      blur="5"
+      blur="1"
     />
 
 		<h1 v-if="showTitle" class="author__site-title">
@@ -22,14 +22,12 @@
 
 		<p class="author__links">
 		
-		<a href="//twitter.com/stephenajulu"><g-image alt="twitter" class src="~/assets/images/twitter.png"/></a>
-      		<a href="//dev.to/stephenajulu"><g-image alt="dev" class src="~/assets/images/dev.jpg" width="30"/></a>
-                <a href="//instagram.com/stephenajulu"><g-image alt="instagram" class src="~/assets/images/instagram.png"/></a>
-       		<a href="/rss.xml"><g-image alt="rss" class src="~/assets/images/rss.png" width="30"/></a>
-      		<a href="//github.com/stephenajulu"><g-image alt="github" class src="~/assets/images/github.png"/></a>
-      		<a href="//linkedin.com/in/stephenajulu"><g-image alt="linkedin" class src="~/assets/images/linkedin.png" width="32"/></a>
-      		<!-- <a href="//noti.st/stephenajulu"><g-image alt="notist" class src="~/assets/images/notist.jpg" width="32"/></a> -->
-		
+		<a href="//twitter.com/stephenajulu"><g-image alt="twitter" src="~/assets/images/twitter.png"/></a>
+      		<a href="//dev.to/stephenajulu"><g-image alt="dev" src="~/assets/images/dev.jpg" width="30"/></a>
+                <a href="//instagram.com/stephenajulu"><g-image alt="instagram" src="~/assets/images/instagram.png"/></a>
+       		<a href="/rss.xml"><g-image alt="rss" src="~/assets/images/rss.png" width="30"/></a>
+      		<a href="//github.com/stephenajulu"><g-image alt="github" src="~/assets/images/github.png"/></a>
+      		<a href="//linkedin.com/in/stephenajulu"><g-image alt="linkedin" src="~/assets/images/linkedin.png" width="32"/></a>
 		</p>
 
 	</div>
