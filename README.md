@@ -1,3 +1,5 @@
+# Stephen Ajulu's Microblog based on Suits-at Version of the Gridsome Starter
+
 # Netlify CMS template for Gridsome
 
 > A simple, hackable & minimalistic starter for Gridsome that uses Netlify CMS for content.
